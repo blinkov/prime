@@ -31,6 +31,6 @@ To make it work on several nodes (servers) the straightforward solution is:
 
 In order to make production system for similar task we should minimize usage of 
 Erlang's internal message passing capabilities and use fault-tolerant 
-message passing network service like RabbitMQ or other AMQP protocol.
+message passing network service like RabbitMQ or other AMQP protocol implementation.
 
 

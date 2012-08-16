@@ -9,7 +9,7 @@ compile:
 	@$(REBAR) compile
 
 run:
-	@erl -args_file 'vm.args' -pa ebin -pa deps/*/ebin -s lager
+	@erl -args_file 'vm.args' -pa ebin -pa deps/*/ebin
 
 daemon:
 	@erl -args_file 'vm.args' -pa ebin -pa deps/*/ebin -detached

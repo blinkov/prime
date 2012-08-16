@@ -4,3 +4,7 @@ priv
 *.o
 *.beam
 *.plt
+log/*
+output.txt
+.project
+erl_crash.dump

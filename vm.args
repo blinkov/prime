@@ -1,0 +1,23 @@
+## Name of the node
+-sname prime
+
+## Config
+-config prime
+
+## Cookie for distributed erlang
+-setcookie CzFG345gRfRgRYp45f86
+
+## Enable kernel poll and a few async threads
++K true
++A 8
++P 134217727
+
+## Increase number of concurrent ports/sockets
+-env ERL_MAX_PORTS 999999
+
+## sbt
++sbt s
+
+## Start
+-s lager
+-s prime
